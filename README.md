@@ -16,6 +16,8 @@ The dev board contains a pair of Broadcom
 [B50612D](https://github.com/wuxx/Colorlight-FPGA-Projects/blob/master/doc/B50612D-datasheet.pdf)
 Gigabit Ethernet Transceivers.
 
+![PCB](scr_20241019175744.png)
+
 The project was inspired by this [Ethernet interface](https://github.com/kazkojima/colorlight-i5-tips#ethernet) by kazkojima.
 
 I found an 
