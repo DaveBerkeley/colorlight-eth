@@ -4,7 +4,7 @@ ColorLight Ethernet Interface
 
 This PCB provides the RJ45 and magnetics to connect a pair of Ethernet sockets to the 
 [Colorlight i9](https://github.com/wuxx/Colorlight-FPGA-Projects/blob/master/colorlight_i9_v7.2.md)
-dev board.
+FPGA dev board.
 
 I'm using the excellent [LiteX](https://github.com/enjoy-digital/litex) SoC builder from [Enjoy Digital](http://www.enjoy-digital.fr/).
 
