@@ -28,6 +28,18 @@ with built in magnetics, which makes the whole design a lot simpler.
 
 I've got the system loading a binary image over TFTP and booting. I've not yet had time to do any more tests.
 
+The edge connector does not have LED outputs on it unfortunately. 
+So I've wired these to a 5-pin header on the side of the board.
+There are 4 resistors on the back of the board to limit the current through the LEDs.
+The LEDs in these sockets are bicolour bidirectional, but only one direction is supported.
+
+There is also a jumper to select between 5V and 3V3 connection to the pulse transformers, 
+but the circuit seems to work without this being conencted to either. 
+I need to look into its purpose.
+
+I'm currently running [PanglOS](https://github.com/DaveBerkeley/panglos) on the RISC-V.
+This doesn't yet have a scheduler on the RISC-V, so I don't have any multitasking.
+Software for the Ethernet interface on my board is still work in progess.
 
             __   _ __      _  __
            / /  (_) /____ | |/_/
